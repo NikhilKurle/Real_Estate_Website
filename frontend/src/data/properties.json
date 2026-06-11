@@ -1,0 +1,100 @@
+[
+  {
+    "id": "prop-1",
+    "title": "The Glass Pavilion",
+    "price": 4500000,
+    "location": "Beverly Hills, CA",
+    "type": "Villa",
+    "images": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80"
+    ],
+    "bedrooms": 5,
+    "bathrooms": 6,
+    "sqft": 7200,
+    "description": "An architectural masterpiece featuring floor-to-ceiling glass walls, offering panoramic views of the hills. Includes a smart home system, infinity pool, and private wine cellar.",
+    "amenities": ["Infinity Pool", "Wine Cellar", "Smart Home", "Home Theater", "Guest House"],
+    "featured": true
+  },
+  {
+    "id": "prop-2",
+    "title": "Minimalist Penthouse",
+    "price": 2800000,
+    "location": "Manhattan, NY",
+    "type": "Penthouse",
+    "images": [
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80"
+    ],
+    "bedrooms": 3,
+    "bathrooms": 3.5,
+    "sqft": 3500,
+    "description": "A stunning ultra-modern penthouse in the heart of Manhattan. Sleek lines, custom marble countertops, and a private rooftop terrace.",
+    "amenities": ["Rooftop Terrace", "Concierge Service", "Private Elevator", "Gym Access"],
+    "featured": true
+  },
+  {
+    "id": "prop-3",
+    "title": "Coastal Retreat",
+    "price": 3200000,
+    "location": "Malibu, CA",
+    "type": "House",
+    "images": [
+      "https://images.unsplash.com/photo-1600607687931-570a30b05b38?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80"
+    ],
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "sqft": 4800,
+    "description": "Direct beach access from this luxurious contemporary home. Open concept living spaces designed to bring the ocean indoors.",
+    "amenities": ["Beach Access", "Outdoor Kitchen", "Spa", "3-Car Garage"],
+    "featured": false
+  },
+  {
+    "id": "prop-4",
+    "title": "Modern Forest Estate",
+    "price": 1950000,
+    "location": "Aspen, CO",
+    "type": "Estate",
+    "images": [
+      "https://images.unsplash.com/photo-1600566753086-00f18efc2291?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80"
+    ],
+    "bedrooms": 6,
+    "bathrooms": 5,
+    "sqft": 6500,
+    "description": "Nestled in the pines, this estate combines modern luxury with rustic charm. Features a grand stone fireplace and floor-to-ceiling windows.",
+    "amenities": ["Ski-in/Ski-out", "Sauna", "Heated Driveway", "Vaulted Ceilings"],
+    "featured": true
+  },
+  {
+    "id": "prop-5",
+    "title": "Urban Oasis Loft",
+    "price": 1450000,
+    "location": "Chicago, IL",
+    "type": "Apartment",
+    "images": [
+      "https://images.unsplash.com/photo-1600607686527-6fb886090705?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80"
+    ],
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "sqft": 2100,
+    "description": "Industrial chic meets modern luxury. Exposed brick walls, 15-foot ceilings, and high-end modern finishes.",
+    "amenities": ["Exposed Brick", "Chef's Kitchen", "Doorman", "Pet Friendly"],
+    "featured": false
+  },
+  {
+    "id": "prop-6",
+    "title": "Serene Lake House",
+    "price": 2200000,
+    "location": "Lake Tahoe, NV",
+    "type": "Villa",
+    "images": [
+      "https://images.unsplash.com/photo-1510627489930-0c1b0bfb6785?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80"
+    ],
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "sqft": 4200,
+    "description": "A tranquil escape on the shores of Lake Tahoe. Private dock, expansive decks, and panoramic water views from every room.",
+    "amenities": ["Private Dock", "Wrap-around Deck", "Fire Pit", "Boat House"],
+    "featured": false
+  }
+]
