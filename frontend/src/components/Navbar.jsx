@@ -21,7 +21,7 @@ const Navbar = () => {
   }, [location]);
 
   return (
-    <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
+    <nav className={`navbar ${scrolled || location.pathname !== '/' ? 'scrolled' : ''}`}>
       <div className="container flex items-center justify-between">
         <Link to="/" className="navbar-logo">
           Prime<span>Nest</span>

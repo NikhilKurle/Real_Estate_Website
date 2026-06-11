@@ -40,7 +40,7 @@
     "location": "Malibu, CA",
     "type": "House",
     "images": [
-      "https://images.unsplash.com/photo-1600607687931-570a30b05b38?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80"
+      "https://images.unsplash.com/photo-1510627489930-0c1b0bfb6785?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80"
     ],
     "bedrooms": 4,
     "bathrooms": 4,
@@ -56,7 +56,7 @@
     "location": "Aspen, CO",
     "type": "Estate",
     "images": [
-      "https://images.unsplash.com/photo-1600566753086-00f18efc2291?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80"
+      "https://images.unsplash.com/photo-1518780664697-55e3ad937233?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80"
     ],
     "bedrooms": 6,
     "bathrooms": 5,
@@ -72,7 +72,7 @@
     "location": "Chicago, IL",
     "type": "Apartment",
     "images": [
-      "https://images.unsplash.com/photo-1600607686527-6fb886090705?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80"
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80"
     ],
     "bedrooms": 2,
     "bathrooms": 2,
@@ -88,7 +88,7 @@
     "location": "Lake Tahoe, NV",
     "type": "Villa",
     "images": [
-      "https://images.unsplash.com/photo-1510627489930-0c1b0bfb6785?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80"
+      "https://images.unsplash.com/photo-1449844908441-8829872d2607?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80"
     ],
     "bedrooms": 4,
     "bathrooms": 4,
