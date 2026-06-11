@@ -46,6 +46,39 @@ const Home = () => {
         </div>
       </section>
 
+      <section className="manifesto-video-hero">
+        <video
+          className="manifesto-video-bg"
+          src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260403_050628_c4e32401-fab4-4a27-b7a8-6e9291cd5959.mp4"
+          autoPlay
+          muted
+          loop
+          playsInline
+          aria-hidden="true"
+        />
+        <div className="manifesto-video-overlay" aria-hidden="true" />
+
+        <div className="container manifesto-video-content">
+          {/* Title block */}
+          <div className="manifesto-hero-text">
+            <p className="manifesto-eyebrow manifesto-eyebrow--light">Our Beliefs</p>
+            <h1 className="manifesto-hero-title">The PrimeNest<br />Manifesto</h1>
+            <p className="manifesto-subhead manifesto-subhead--light">
+              Twenty years in luxury real estate taught us one thing: how a firm treats people says everything about how it will treat your property.
+            </p>
+          </div>
+
+          {/* Divider + Quote */}
+          <div className="manifesto-hero-quote-row">
+            <div className="manifesto-rule manifesto-rule--light" aria-hidden="true" />
+            <blockquote className="manifesto-quote manifesto-quote--light">
+              "The most expensive home in the world is worth nothing if it doesn't belong to the right life."
+            </blockquote>
+            <div className="manifesto-rule manifesto-rule--light" aria-hidden="true" />
+          </div>
+        </div>
+      </section>
+
       {/* Services / Why Choose Us */}
       <section className="section">
         <div className="container">
