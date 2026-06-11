@@ -24,7 +24,7 @@ const Navbar = () => {
     <nav className={`navbar ${scrolled || location.pathname !== '/' ? 'scrolled' : ''}`}>
       <div className="container flex items-center justify-between">
         <Link to="/" className="navbar-logo">
-          Prime<span>Nest</span>
+          Om<span>Sai</span>
         </Link>
 
         <div className={`navbar-links ${isOpen ? 'active' : ''}`}>

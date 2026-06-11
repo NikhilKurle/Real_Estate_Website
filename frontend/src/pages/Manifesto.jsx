@@ -1,4 +1,5 @@
 import './Manifesto.css';
+  import manifestoBg from "../assets/videos/manifesto/manifesto_bg.mp4";
 
 const principles = [
   {
@@ -54,7 +55,7 @@ const Manifesto = () => {
       <section className="manifesto-video-hero">
         <video
           className="manifesto-video-bg"
-          src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260403_050628_c4e32401-fab4-4a27-b7a8-6e9291cd5959.mp4"
+          src={manifestoBg}
           autoPlay
           muted
           loop
@@ -67,7 +68,7 @@ const Manifesto = () => {
           {/* Title block */}
           <div className="manifesto-hero-text">
             <p className="manifesto-eyebrow manifesto-eyebrow--light">Our Beliefs</p>
-            <h1 className="manifesto-hero-title">The PrimeNest<br />Manifesto</h1>
+            <h1 className="manifesto-hero-title">OmSai<br />Manifesto</h1>
             <p className="manifesto-subhead manifesto-subhead--light">
               Twenty years in luxury real estate taught us one thing: how a firm treats people says everything about how it will treat your property.
             </p>

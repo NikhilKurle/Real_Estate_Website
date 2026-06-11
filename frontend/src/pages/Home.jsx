@@ -3,6 +3,8 @@ import { Search, Shield, Clock, Award } from 'lucide-react';
 import PropertyCard from '../components/PropertyCard';
 import propertiesData from '../data/properties.json';
 import './Home.css';
+import manifestoBg from "../assets/videos/manifesto/manifesto_bg.mp4";
+import heroBg from "../assets/videos/hero_Section/Hero_plot.mp4";
 
 const Home = () => {
   const featuredProperties = propertiesData.filter(prop => prop.featured).slice(0, 3);
@@ -10,19 +12,23 @@ const Home = () => {
   return (
     <div className="home-page animate-fade-in">
       {/* Hero Section */}
-      <section className="hero">
+      <section className="hero" style={{ position: "relative", overflow: "hidden" }}>
+        {/* Video Background */}
+        <video
+          className="hero-video-bg"
+          src={heroBg}
+          autoPlay
+          muted
+          loop
+          playsInline
+          aria-hidden="true"
+        />
+
         <div className="hero-overlay"></div>
+
         <div className="container hero-content">
-          <h1>Discover Your<br /><span>Perfect Sanctuary</span></h1>
-          <p>Experience luxury living with our curated collection of premium properties tailored to your lifestyle.</p>
-          
-          <div className="hero-search">
-            <input type="text" placeholder="Search by location, property type..." />
-            <button className="btn btn-primary">
-              <Search size={20} />
-              <span>Search</span>
-            </button>
-          </div>
+          <h1>Welcome To <br /><span>Om Sai Landmark</span></h1>
+         <p>Find the perfect open plot to build your dream home in a location that suits your lifestyle and aspirations.</p>
         </div>
       </section>
 
@@ -31,9 +37,9 @@ const Home = () => {
         <div className="container">
           <div className="section-header">
             <h2>Featured Properties</h2>
-            <p className="text-muted">Handpicked selection of our most exclusive homes</p>
+            <p className="text-muted">Handpicked selection of our most exclusive Plots</p>
           </div>
-          
+
           <div className="grid property-grid">
             {featuredProperties.map(property => (
               <PropertyCard key={property.id} property={property} />
@@ -49,7 +55,7 @@ const Home = () => {
       <section className="manifesto-video-hero">
         <video
           className="manifesto-video-bg"
-          src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260403_050628_c4e32401-fab4-4a27-b7a8-6e9291cd5959.mp4"
+          src={manifestoBg}
           autoPlay
           muted
           loop
@@ -62,7 +68,7 @@ const Home = () => {
           {/* Title block */}
           <div className="manifesto-hero-text">
             <p className="manifesto-eyebrow manifesto-eyebrow--light">Our Beliefs</p>
-            <h1 className="manifesto-hero-title">The PrimeNest<br />Manifesto</h1>
+            <h1 className="manifesto-hero-title">The OmSai<br />Manifesto</h1>
             <p className="manifesto-subhead manifesto-subhead--light">
               Twenty years in luxury real estate taught us one thing: how a firm treats people says everything about how it will treat your property.
             </p>
@@ -83,7 +89,7 @@ const Home = () => {
       <section className="section">
         <div className="container">
           <div className="section-header text-center">
-            <h2>Why Choose PrimeNest</h2>
+            <h2>Why Choose OmSai</h2>
             <p className="text-muted">We provide an unparalleled real estate experience</p>
           </div>
 
@@ -106,16 +112,16 @@ const Home = () => {
           </div>
         </div>
       </section>
-      
+
       {/* Testimonials */}
       <section className="section bg-dark text-white">
         <div className="container">
           <div className="section-header text-center">
-            <h2 style={{color: 'white'}}>What Our Clients Say</h2>
+            <h2 style={{ color: 'white' }}>What Our Clients Say</h2>
           </div>
           <div className="grid testimonials-grid">
             <div className="testimonial-card">
-              <p className="testimonial-text">"PrimeNest made finding our dream home in Malibu an absolute breeze. Their attention to detail and premium service is unmatched."</p>
+              <p className="testimonial-text">"OmSai made finding our dream home in Malibu an absolute breeze. Their attention to detail and premium service is unmatched."</p>
               <div className="testimonial-author">
                 <div className="author-avatar">S</div>
                 <div>

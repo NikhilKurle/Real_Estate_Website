@@ -5,7 +5,7 @@ const About = () => {
     <div className="about-page animate-fade-in">
       <div className="page-header about-header">
         <div className="container text-center">
-          <h1>About PrimeNest</h1>
+          <h1>About OmSai</h1>
           <p className="text-muted" style={{color: '#fff'}}>Excellence in luxury real estate</p>
         </div>
       </div>
@@ -14,7 +14,7 @@ const About = () => {
         <div className="grid about-grid">
           <div className="about-content">
             <h2>Our Story</h2>
-            <p className="text-muted">Founded in 2010, PrimeNest was born out of a desire to redefine the luxury real estate market. We recognized a need for a brokerage that not only understood the unique nuances of high-end properties but also delivered an unparalleled level of personalized service.</p>
+            <p className="text-muted">Founded in 2010, OmSai was born out of a desire to redefine the luxury real estate market. We recognized a need for a brokerage that not only understood the unique nuances of high-end properties but also delivered an unparalleled level of personalized service.</p>
             <p className="text-muted mt-4">Over the past decade, we have grown from a boutique agency in Beverly Hills to an internationally recognized brand, representing some of the most extraordinary properties in the world.</p>
             
             <h2 className="mt-8">Our Mission</h2>
