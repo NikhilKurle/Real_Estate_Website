@@ -30,6 +30,7 @@ const Navbar = () => {
         <div className={`navbar-links ${isOpen ? 'active' : ''}`}>
           <Link to="/" className={location.pathname === '/' ? 'active-link' : ''}>Home</Link>
           <Link to="/properties" className={location.pathname === '/properties' ? 'active-link' : ''}>Properties</Link>
+          <Link to="/manifesto" className={location.pathname === '/manifesto' ? 'active-link' : ''}>Manifesto</Link>
           <Link to="/about" className={location.pathname === '/about' ? 'active-link' : ''}>About</Link>
           <Link to="/contact" className={location.pathname === '/contact' ? 'active-link' : ''}>Contact</Link>
         </div>
